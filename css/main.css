@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: MonsterratMedium;
+    src: url(/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: MonsterratBold;
+    src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: MonsterratSemiBold;
+    src: url(/assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: MonsterratExtraBold;
+    src: url(/assets/fonts/Montserrat-ExtraBold.ttf);
+}
+
+.col_or{
+    color: rgba(243, 127, 52, 1);
+}
+
+
+/* ↑↑↑↑ general */
+
+
+.wrapper{
+    max-width: 1920px;
+    font-family: MonsterratMedium;
+    margin: 30px 0px 0px 0px;
+    color: rgba(119, 78, 46)
+
+}
+
+.wrapper a{
+    color: rgb(119, 78, 46, 1);
+    text-decoration: none;
+}
+
+.wrapper .logo{
+    width: 79px;
+    height: 79px;
+}
+
+/* ↑↑↑↑ wrapper */
+
+header{
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20% 0px 20%;
+}
+
+header a{
+    margin-right: 50px;
+}
+
+/* ↑↑↑↑ header */
+
+main .sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20% 132px 20%;
+}
+
+main .text_1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 161px 20px;
+    font-size: 16px;
+}
+
+main .text_1 h1{
+    font-family: MonsterratExtraBold;
+    font-size: 110px;
+    margin:0px 0px 40px 0px;
+    line-height: 100%;
+}
+
+main .text_1 p{
+    margin: 0;
+}
+
+main .sec1 img{
+    margin-top: 100px;
+    margin-bottom: 132px;
+}
+
+main .sec1 button{
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 20px 0 20px 0;
+    background-color: rgba(119, 78, 46);
+    width: 70%;
+    border: none;
+}
+
+main .sec1 a{  
+    font-size: 20px;
+    color: white;
+}
+
+/* ↑↑↑↑ mainpage */
+
+main .sec2{
+    padding: 150px 0 150px 0;
+    background-color: rgba(255, 249, 234, 1);
+}
+
+main .sec2 h2{
+    text-align: center;
+    font-family: MonsterratBold;
+    font-size: 72px;
+}
+
+main .sec2 .cards{
+    display: flex;
+    margin: 70px 20% 150px 20%;
+}
+
+main .sec2 .cards h4{
+    font-family: MonsterratBold;
+    font-size: 24px;
+    margin: 36px 0px 0px 0px;
+}
+
+main .sec2 .card{
+    text-align: center;
+    background-color: white;
+    width: 370px;
+    margin-right: 30px;
+}
+
+main .sec2 .card p{
+    box-sizing: border-box;
+    padding: 0px 20px 36px 20px;
+}
+
+/* ↑↑↑↑ cards */
+
+main .sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20% 150px 20%;
+}
+
+main .sec3 .text_2 h2{
+    font-family: MontserratBold;
+    font-size: 72px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    line-height: 100%;
+}
+
+
+main .sec3 .text_2{    
+    margin-top: 194px;
+    margin-bottom: 193px;
+    max-width: 575px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+main .sec3 .text_2 p{
+    margin: 0 20px 0 0;
+    box-sizing: border-box;
+    padding-right: 15%;
+}
+
+main .sec3 img{
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+
+main .sec3 .list{
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+main .sec3 .list p{
+    font-family: MonsterratSemiBold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* ↑↑↑↑ candies */
+
+
+footer{
+    font-family: MonsterratMedium;
+    font-size: 36px;
+    max-width: 1920px;
+    background-color: rgba(119, 78, 46, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20% 0px 20%;;
+}
+footer h3{
+    color: white;
+}
+footer img{
+    width: 99px;
+    height: 99px;
+}
